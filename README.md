@@ -15,6 +15,7 @@ Here, I refered to the structure of ResNext (https://arxiv.org/pdf/1611.05431.pd
 3. Experimental Platform:
 
 Python(3.5)
+
 Keras (1.2.0) -- Tensorflow backend (GPU version)
 
 GPU:
@@ -24,4 +25,5 @@ GPU:
 4. A folder based prediction method:
 
 Instead of generating .txt file, this method allows us to get the prediction results of each folder in test dataset. 
+
 Notice: the folder names in test dataset should be same with that of training dataset.
