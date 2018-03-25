@@ -20,3 +20,8 @@ Keras (1.2.0) -- Tensorflow backend (GPU version)
 GPU:
 1080 ti  (11G) * 2
 
+
+4. A folder based prediction method:
+
+Instead of generating .txt file, this method allows us to get the prediction results of each folder in test dataset. 
+Notice: the folder names in test dataset should be same with that of training dataset.
