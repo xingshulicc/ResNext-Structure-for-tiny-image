@@ -33,10 +33,12 @@ Notice: the folder names in test dataset should be same with that of training da
 
 The value of depth should satisfy (depth - 2) // 9 == 0
 
-
 2: the first 3 by 3 Conv, 64 and the last Dense, nb_classes
 
+9: In each block there are 3 bottleneck structures and each bottleneck structure has 3 convolutional layers
 
-9: there are 3 blocks and each block has  
+So if depth = 29, it means that there are 3 blocks in the network
 
-For each block 
+For each block, Downsampling is implemented in the 3 by 3 Conv of the first bottleneck structure, which is a little different from ResNet-50: the downsampling is done in the first 1 by 1 Conv.
+
+Note filters_list = 128, 256, 512
