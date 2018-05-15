@@ -45,4 +45,4 @@ Note:
 
 N = [3, 3, 3]
 
-filters_list = 128, 256, 512
+filters_list = [128, 256, 512]
