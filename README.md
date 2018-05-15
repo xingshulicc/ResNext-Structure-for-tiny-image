@@ -41,4 +41,8 @@ So if depth = 29, it means that there are 3 blocks in the network
 
 For each block, Downsampling is implemented in the 3 by 3 Conv of the first bottleneck structure, which is a little different from ResNet-50: the downsampling is done in the first 1 by 1 Conv.
 
-Note filters_list = 128, 256, 512
+Note:
+
+N = [3, 3, 3]
+
+filters_list = 128, 256, 512
