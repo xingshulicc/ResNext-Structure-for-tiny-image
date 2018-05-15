@@ -1,5 +1,5 @@
 # ResNext-Structure-for-tiny-image
-ResNext Struture, EarlyStopping and ReduceLROnPlateau Callbacks in Keras, A folder based prediction method 
+Group Convolution, EarlyStopping and ReduceLROnPlateau Callbacks in Keras, A folder based prediction method 
 
 1. Dataset:
 
@@ -28,3 +28,15 @@ Instead of generating .txt file, this method allows us to get the prediction res
 
 Notice: the folder names in test dataset should be same with that of training dataset.
 
+
+5. some explanation about network structure:
+
+The value of depth should satisfy (depth - 2) // 9 == 0
+
+
+2: the first 3 by 3 Conv, 64 and the last Dense, nb_classes
+
+
+9: there are 3 blocks and each block has  
+
+For each block 
